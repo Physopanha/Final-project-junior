@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="page2 (2).css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="page1.html">Home</a>
+        <a href="page2.html">Menu</a>
+        <a href="page3.html">About</a>
+    </nav>
+
+
+    <!-- MENU -->
+<main class="menu-page-wrapper">
+  <div class="text">
+    <h1>Our Menu</h1>
+    <p>Fresh Pizzas, Burgers and Cakes, Etc. Made every day</p>
+  </div>
+
+  <!-- Main Grid Layout for Menu Categories -->
+  <div class="menu-grid">
+    
+    <!-- PIZZA BOX -->
+    <div class="category-box">
+      <h2>🍕 Pizza</h2>
+      <ul class="item-list">
+        <li><span>Margherita Pizza</span> <span class="price">$5.00</span></li>
+        <li><span>Pepperoni Pizza</span> <span class="price">$6.00</span></li>
+        <li><span>Seafood Pizza</span> <span class="price">$7.00</span></li>
+      </ul>
+    </div>
+
+    <!-- BURGER BOX -->
+    <div class="category-box">
+      <h2>🍔 Burger</h2>
+      <ul class="item-list">
+        <li><span>Classic Burger</span> <span class="price">$4.00</span></li>
+        <li><span>Chicken Burger</span> <span class="price">$4.50</span></li>
+        <li><span>Cheese Burger</span> <span class="price">$5.00</span></li>
+      </ul>
+    </div>
+
+    <!-- DESSERT BOX -->
+    <div class="category-box">
+      <h2>🍰 Dessert</h2>
+      <ul class="item-list">
+        <li><span>Chocolate Cake</span> <span class="price">$3.00</span></li>
+        <li><span>Strawberry Cake</span> <span class="price">$3.50</span></li>
+        <li><span>Ice Cream</span> <span class="price">$2.50</span></li>
+      </ul>
+    </div>
+
+    <!-- DRINKS BOX -->
+    <div class="category-box">
+      <h2>🥤 Drinks</h2>
+      <ul class="item-list">
+        <li><span>Coca-Cola</span> <span class="price">$1.50</span></li>
+        <li><span>Orange Juice</span> <span class="price">$2.00</span></li>
+        <li><span>Coffee</span> <span class="price">$2.00</span></li>
+      </ul>
+    </div>
+
+  </div>
+</main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <section class="big-footer">
+
+            <div class="small-footer">
+
+                <div class="top-inner">
+                    <h3>Fake Restaurant</h3>
+                    <p>Fresh Pizzas, Burgers and Cakes, Etc.</p>
+                    <p>Made every day</p>
+                </div>
+
+
+                <div class="link-footer">
+                    <h3>Quick Link</h3>
+                    <a href="page1.html">Home</a>
+                    <a href="page2.html">Menu</a>
+                    <a href="page3.html">About</a>
+                </div>
+
+
+                <div class="Contact-us">
+                    <h3>Contact us</h3>
+                    <p>Fake Location, Cambodia</p>
+                    <p>Tel: 012 xxx xxx</p>
+                    <p>Email: FakeRestaurant.com</p>
+                </div>
+
+            </div>
+
+
+            <div class="bottom-inner">
+                <p>&copy; 2026 Fake Restaurant. All Rights Reserved.</p>
+            </div>
+
+        </section>
+
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
+
