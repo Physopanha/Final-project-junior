@@ -1,0 +1,231 @@
+
+.all{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all2{
+    background-color: white;
+    max-width: 570px;
+    margin-top: 55px;
+    font-weight: normal;
+}
+.back{
+    padding-left: 3px;
+    width: 15px;
+    height: 15px;
+}
+.meta-logo{
+    padding-top: 3px;
+    width: 65px;
+    
+   
+}
+.all h2.Dist{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #232222;
+}
+.all p.Dist{
+    margin-top:5px;
+    color: #232222;
+}
+.Dist{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pad-left{
+    padding-left: 3px;
+}
+.Name{
+    font-size: 18px;
+}
+.name-container{
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 400px;
+}
+.input-group{
+    flex: 1;
+}
+input[type="text"]{
+    width: 270px;
+    padding: 20px;
+    border: 1px solid #ece9e9;
+    border-radius: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+input[type="text"]:focus{
+    border-color: #1877f2;
+    outline: none;
+}
+.all p.sizee{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #232222;
+}
+.birth-container{
+    display: flex;
+    gap: 12px;
+    width: 553px;
+    max-width: 700px;
+}
+.birth-container select{
+    width: 100%;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ece9e9;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.birth-container select:focus{
+    border-color: #1877f2;
+    outline: none;
+}
+.gender-container{
+    width: 553px;
+    max-width: 1000px;
+}
+.gender-container select{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ece9e9;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.gender-container select:focus{
+    border-color: #1877f2;
+    outline: none;
+}
+.moe-container{
+    gap: 12px;
+    width: 300px;
+    max-width: 400px;
+}
+input[type="textt"]{
+    width: 553px;
+    padding: 20px;
+    border: 1px solid #ece9e9;
+    border-radius: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+   
+}
+input[type="textt"]:focus{
+    border-color: #1877f2;
+    outline: none;
+}
+.text-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.text-info a{
+    text-decoration: none;
+    color: blue;
+}
+.text-infomation{
+    flex-direction: row;
+    align-items: center;
+    margin-top: -5px;
+}
+.text-infomation a{
+    text-decoration: none;
+    color:blue;
+}
+.form-container{
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit-btn{
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    width: 553px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.submit-btn:hover{
+    background-color: #166fe5;
+}
+.acc-link-box{
+    margin-top: 10px;
+}
+.acc-link{
+    text-align: center;
+    display: inline-block;
+    background-color: #eaebec;
+    color: #232222;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    width: 529px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+
+
+}
+.acc-link:hover{
+    background-color: #dddddf;
+    
+}
+a{
+    font-weight: bold;
+}
+.lang{
+    width: 1000px;
+    display: flex;
+    margin-top: 30px;
+    padding-left: 195px;
+    max-width: 1000px;
+}
+.languages {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    font-size: 15px;
+    color: #737373;
+    padding: 20px;
+}
+.lang-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 45px; 
+    line-height: 2.3;
+}
+.lang-row2 {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px; 
+    line-height: 2.3;
+}
+.lang-row3{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px; 
+    line-height: 2.3;
+}
+.lang-divider {
+    border: none;
+    border-top: 1px solid #ddd;
+}

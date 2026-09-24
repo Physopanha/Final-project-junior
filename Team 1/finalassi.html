@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        /* CSS RESET & BASE STYLES */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #1c1e21;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* MAIN CONTENT AREA */
+        .main-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px;
+        }
+
+        .card-container {
+            width: 100%;
+            max-width: 480px;
+            padding: 0 16px;
+        }
+
+        /* BACK BUTTON ARROW */
+        .back-button {
+            display: inline-block;
+            margin-bottom: 24px;
+            color: #1c1e21;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* CARD TITLE & SUBTITLE */
+        .card-title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+            color: #050505;
+            margin-bottom: 6px;
+        }
+
+        .card-subtitle {
+            font-size: 15px;
+            color: #65676b;
+            margin-bottom: 24px;
+        }
+
+        /* INPUT FIELD */
+        .input-group {
+            margin-bottom: 16px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 16px;
+            font-size: 16px;
+            border: 1px solid #dddfe2;
+            border-radius: 12px;
+            outline: none;
+            color: #1c1e21;
+            background-color: #ffffff;
+            transition: border-color 0.2s;
+        }
+
+        .input-field::placeholder {
+            color: #8a8d91;
+        }
+
+        .input-field:focus {
+            border-color: #0866ff;
+            box-shadow: 0 0 0 2px #e7f3ff;
+        }
+
+        /* CONTINUE BUTTON */
+        .btn-continue {
+            width: 100%;
+            background-color: #0866ff;
+            color: #ffffff;
+            border: none;
+            border-radius: 20px;
+            padding: 12px 16px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .btn-continue:hover {
+            background-color: #0052cc;
+        }
+
+        /* FOOTER SECTION */
+        .footer {
+            width: 100%;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 20px 16px 40px;
+            margin-top: auto;
+        }
+
+        .footer-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 16px;
+            padding-bottom: 8px;
+        }
+
+        .footer-list.languages {
+            align-items: center;
+        }
+
+        .footer-divider {
+            border: none;
+            border-top: 1px solid #dddfe2;
+            margin: 8px 0;
+        }
+
+        .footer-list a {
+            color: #8a8d91;
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        .footer-list a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-list a.active {
+            color: #737373;
+            font-weight: 600;
+        }
+
+        .more-langs-btn {
+            background: #f5f6f7;
+            border: 1px solid #ccd0d5;
+            color: #4b4f56;
+            padding: 0 8px;
+            font-size: 12px;
+            height: 20px;
+            line-height: 18px;
+            border-radius: 2px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- MAIN FORM SECTION -->
+    <div class="main-container">
+        <div class="card-container">
+            <a href="index.html" class="back-button">&#10094;</a>
+            
+            <h1 class="card-title">Find your account</h1>
+            <p class="card-subtitle">Enter your mobile number or email.</p>
+            
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        class="input-field" 
+                        placeholder="Mobile number or email" 
+                        required
+                    />
+                </div>
+                <button type="submit" class="btn-continue">Continue</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <ul class="footer-list languages">
+            <li><a href="#" class="active">English (US)</a></li>
+            <li><a href="#">ភាសាខ្មែរ</a></li>
+            <li><a href="#">Français (France)</a></li>
+            <li><a href="#">Tiếng Việt</a></li>
+            <li><a href="#">中文(简体)</a></li>
+            <li><a href="#">ภาษาไทย</a></li>
+            <li><a href="#">한국어</a></li>
+            <li><a href="#">More languages...</a></li>
+        </ul>
+
+        <div class="footer-divider"></div>
+
+        <ul class="footer-list">
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Messenger</a></li>
+            <li><a href="#">Facebook Lite</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Meta Pay</a></li>
+            <li><a href="#">Meta Store</a></li>
+            <li><a href="#">Meta Quest</a></li>
+            <li><a href="#">Ray-Ban Meta</a></li>
+            <li><a href="#">Meta AI</a></li>
+            <li><a href="#">Muse</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Threads</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Privacy Center</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Create ad</a></li>
+            <li><a href="#">Create Page</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Ad choices</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact Uploading & Non-Users</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
