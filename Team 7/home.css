@@ -1,0 +1,123 @@
+
+body {
+  font-family: "Georgia", serif;
+  margin: 0;
+  color: #333;
+  background-color: rgb(238, 226, 226);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  background-color: rgb(203, 181, 181);
+}
+nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+.big-text {
+  color: rgb(240, 170, 170);
+  text-align: center;
+  padding: 92px 16px;
+  font-size: 32px;
+}
+.body-above, .body-middle, .body-below{
+  padding: 3rem;
+  text-align: center;
+}
+
+.Products{
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.product{
+  background-color: #d0cdcd;
+  padding: 32px;
+  border-radius: 8px;
+  width: 250px;
+}
+.product img{
+  width: 100%;
+  border-radius: 6px;
+}
+.product button {
+  background-color: #b89b7e;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 80%;
+}
+.product button:hover {
+  background-color: #a07f63;
+}
+.fp{
+    padding: 0px 0px 32px 0;
+}
+
+.psc{
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.value{
+  background-color: #d0cdcd;
+  padding: 32px;
+  border-radius: 8px;
+  width: 250px;
+}
+.value img{
+  width: 100%;
+  border-radius: 6px;
+}
+.bm-text{
+    padding: 16px 0px 16px 0;
+}
+form {
+  margin-top: 16px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.email button {
+  background-color: #b89b7e;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 10%;
+}
+
+footer {
+  background-color: #f0ebe6;
+  padding: 32px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 16px;
+}
+
+.footer-links a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 4px 0;
+}

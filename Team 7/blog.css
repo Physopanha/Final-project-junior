@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40rem;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.log{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.log a:hover{
+    opacity: 0.8;
+}
+
+.log a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.line{
+    padding-top: 1px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(93, 90, 90);
+}
+
+hr{
+    margin-bottom: 35px;
+    margin-top: 1px;
+    opacity: 0.4;
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.big{
+    border: 2px solid rgb(135, 146, 14);
+    border-radius: 16px;
+    width: 70rem;
+    
+}
+
+.big img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+.text{
+    margin-left: 25px;
+}
+
+.text h2{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.text p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: larger;
+}
+
+.text h4{
+    margin-top: 15px;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65rem;
+    margin-top: 30px;
+}
+
+.double{
+    display: flex;
+    flex-direction: column;
+}
+
+.topleft, .bottomleft, .topright, .bottomright{
+    width: 31.5rem;
+    border: 2px solid rgb(135, 146, 14);
+    border-radius: 16px;
+    
+}
+
+.topleft img, .bottomleft img, .topright img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.topleft, .topright{
+    margin-bottom: 30px;
+}
+
+.bottomright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0;
+    width: 95% 
+}
+
+.top h4{
+    margin: 0;
+}
+
+.follow{
+    background-color: rgb(11, 76, 11);
+    color: white;
+    padding: 4px;
+    width: 70px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.top img{
+    width: 30px;
+    height: 30px;
+}
+
+.imginsta{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.imginsta img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.Join{
+    margin-top: 5rem;
+    background-color:rgb(232, 225, 214);
+    padding: 10px 22.3rem 32px;
+    border: 2px solid rgb(135, 146, 14);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Join p{
+    font-size: large;
+}
+
+.Join input{
+    padding: 10px;
+    width: 290px;
+    border-radius: 8px;
+}
+
+.Join button{
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: rgb(11, 74, 11);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 3.3rem;
+    border-top: 3px solid rgb(211, 209, 209);
+}
+
+.foot{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    background-color: rgb(195, 145, 96);
+    opacity: 0.9;
+}
+
+.overline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.8rem;
+    margin-bottom: 25px;
+}
+
+.overline h2{
+    margin-bottom: 13px;
+}
+
+.p{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+
+.p a{
+    text-decoration: none;
+    border: none;
+}
+
+.p img{
+    width: 20px;
+    height: 18px;
+    margin-top: 2px;
+}
+
+.last{
+    width: 75%;
+    margin-bottom: 0;
+}
+
+.bottomline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    font-size: smaller;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
