@@ -1,0 +1,321 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.board{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+.catalog a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+
+.catalog a:hover{
+    color: var(--dark-navy);
+    font-weight: 550;
+}
+
+.line{
+    padding-top: 6px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(93, 90, 90);
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    align-items: center;
+}
+
+.icon img{
+    height: 30px;
+    width: 30px;
+}
+
+.under-board{
+    margin: 0;
+    opacity: 0.4;
+}
+
+.head{
+    text-align: center;
+    margin-top: 2.2rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.filter{
+    margin-bottom: 15px;
+}
+
+hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    opacity: 0.4;
+}
+
+.cate{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size:small;
+}
+
+.scent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: small;
+}
+
+.up{
+    cursor: pointer;
+}
+
+.bold-check{
+    opacity: 0.8;
+    outline-offset: -10px;
+    margin-left: 1px;
+    transform: scale(1.1);
+}
+
+.fit{
+    outline-offset: -2px;
+    transform: scale(1.2);
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+.fit input{
+    width: 167px;
+}
+
+.shrink{
+    outline-offset: -2px;
+    transform: scale(1.2);
+    margin-left: 18px;
+}
+
+.shrink input{
+    width: 64px;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.cate-head{
+    font-weight:bolder;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 107px;
+    font-size: 16px;
+}
+
+.price-head{
+    font-weight: bolder;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 81px;
+    font-size: 16px;
+}
+
+.scent-head{
+    font-weight: bolder;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 146px;
+    font-size: 16px;
+}
+
+.pic{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.triple{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.triple img{
+    height: 250px;
+    width: 230px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.block h4{
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.block h5{
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.block p{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.block p:hover{
+    background-color: rgb(221, 216, 216)
+}
+
+.bottom{
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.bottom button{
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.num1{
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.num{
+    background: none;
+}
+
+.point{
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.next{
+    display: flex;
+    margin-top: 8px;
+    background: none;
+    gap: 10px;
+}
+
+footer{
+    margin-top: 3.5rem;
+    border-top: 3px solid rgb(211, 209, 209);
+}
+
+.wholefoot{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    background-color: rgb(235, 234, 233);
+    opacity: 0.9;
+}
+
+.overline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 1rem;
+}
+
+.text{
+    font-size: 14px;
+}
+
+.text h3{
+    margin-bottom: 13px;
+}
+
+.text-pic{
+    font-size: 14px;
+}
+
+.text-pic h3{
+    margin-bottom: 10px;
+}
+
+.p{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+
+.p a{
+    text-decoration: none;
+    border: none;
+}
+
+.p img{
+    width: 20px;
+    height: 18px;
+    margin-top: 2px;
+}
+
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 9px;
+    margin-bottom: 7px;
+}
+
+.email{
+    display: flex;
+}
+
+.email input{
+    padding: 10px;
+    width: 160px;
+    border-radius: 7px;
+}
+
+.email button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 6px;
+}
+
+.last{
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.low{
+    text-align: center;
+    margin-top: 2px;
+    font-size: 12px;
+    padding-bottom: 6px;
+}
