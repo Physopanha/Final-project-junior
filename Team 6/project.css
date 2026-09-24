@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+.hotel-page {
+    width: 100%;
+    display: flex;
+}
+
+
+.left-side {
+    width: 55%;
+    position: relative;
+    background: #75695f;
+}
+
+.top-bar {
+    height: 95px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background: rgba(70, 60, 53, 0.65);
+}
+
+.top-bar h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.back,
+.heart {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background: #b71943;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.back:hover{
+    background-color: #f50847;
+    cursor: pointer;
+}
+
+.heart {
+    background: white;
+    color: #b71943;
+}
+
+.main-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+   
+}
+
+
+.thumbnails {
+    position: absolute;
+    right: 30px;
+    bottom: 35px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.thumbnails img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.room-price {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+
+    background: white;
+    padding: 20px 30px;
+    width: 240px;
+    border-radius: 18px;
+}
+
+.room-price h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.old-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.price strong {
+    color: #b71943;
+    font-size: 30px;
+}
+
+
+.right-side {
+    width: 45%;
+    min-height: 100vh;
+    background: #0c0127;
+    padding: 50px 55px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-row h1 {
+    font-size: 38px;
+    color: white;
+}
+
+.favorite {
+    width: 56px;
+    height: 56px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: white;
+    color: #b71943;
+
+    font-size: 25px;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    margin-top: 28px;
+}
+
+.avatars {
+    display: flex;
+}
+
+.avatars img {
+    width: 38px;
+    height: 38px;
+
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: -8px;
+}
+
+.review strong {
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.rating {
+    background: #ffbd22;
+    color: white;
+
+    padding: 8px 13px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.description {
+    margin-top: 45px;
+}
+
+.description h2,
+.facilities h2 {
+    font-size: 24px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.description p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.facilities {
+    margin-top: 40px;
+}
+
+.facility-list {
+    display: flex;
+    gap: 14px;
+}
+
+.facility {
+    width: 92px;
+    height: 100px;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #123;
+}
+
+.facility span {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.facility p {
+    font-size: 12px;
+}
+
+.buttons {
+    margin-top: auto;
+
+    display: flex;
+    gap: 18px;
+}
+
+.buttons button {
+    height: 62px;
+
+    border-radius: 35px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.book {
+    width: 50%;
+    align-items: center;
+    background: white;
+    color: #0647a5;
+    text-align: center;
+    border: 2px solid white;
+    text-decoration: none;
+    padding-top: 19px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.book:hover{
+    background-color: rgb(168, 170, 180);
+}
+
+.view {
+    width: 50%;
+
+    background: transparent;
+    color: white;
+
+    border: 2px solid white;
+}
+
+
