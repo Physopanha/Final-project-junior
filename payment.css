@@ -1,0 +1,323 @@
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+background-color: #f8fafc;
+padding: 20px;
+}
+.container12{
+    background-color: #ffffff;
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.payment-banner {
+    background: linear-gradient(110deg, #2563eb 0%, #3b82f6 45%, #60a5fa 85%, #93c5fd 100%);
+border-radius: 20px;
+padding: 24px 32px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+box-shadow: 0 10px 20px rgba(37, 99, 235, 0.15);
+max-width: 850px;
+margin: 0 auto;
+}
+
+.payment-info {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.icon-circle {
+width: 60px;
+height: 60px;
+background-color: white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 26px;
+color: #2563eb;
+flex-shrink: 0;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+margin: 0 0 6px 0;
+font-size: 24px;
+font-weight: 700;
+color: #ffffff;
+}
+
+.text-content{
+margin: 0;
+font-size: 14px;
+opacity: 0.95;
+max-width: 420px;
+line-height: 1.4;
+color: #eff6ff;
+}
+
+.payment-graphics {
+display: flex;
+align-items: center;
+justify-content: center;
+object-fit: contain;
+
+}
+.card-img{
+    width: 140px;
+    height: auto;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+.background-cad{
+display: flex;
+    align-items: center; 
+    background-color: #b8c1cc;
+    justify-content: space-between; 
+    padding: 24px 32px;
+    width: 100%;
+    margin: 0 0 16px 0;
+    max-width: 900px;
+    box-sizing: border-box;
+    box-shadow: #3b82f6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 16px;
+transition: transform 0.3s ease, 
+box-shadow 0.3s ease;
+}
+.icon-circle1 {
+width: 35px;
+height: 35px;
+background-color: blue;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 26px;
+color: #2563eb;
+flex-shrink: 0;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.Debite-card{
+    width: 20px;
+height: 20px;
+}
+.background-cad:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.background-cad.active-card {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+    border: 2px solid #2563eb;
+}
+.font4{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.font4 h4 {
+    margin: 0;
+    font-weight: 600;
+}
+.font4 a {
+    margin:2px 0 0 0;
+    font-size: 12px;
+    
+}
+.background-cad1{
+display: flex;
+    align-items: center; 
+    background-color: #b8c1cc;
+    justify-content: space-between; 
+    padding: 20px 32px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: #3b82f6;
+    margin: 0 0 16px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 16px;
+transition: transform 0.3s ease, 
+box-shadow 0.3s ease;
+}
+.icon-circle1-1 {
+width: 35px;
+height: 35px;
+background-color: blue;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 26px;
+color: #2563eb;
+flex-shrink: 0;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.Debite-card1{
+    width: 20px;
+height: 20px;
+}
+.background-cad1:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.background-cad1.active-card {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+    border: 2px solid #2563eb;
+}
+.font4-1{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.font4-1 h4 {
+    margin: 0;
+    font-weight: 600;
+}
+.font4-1 a {
+    margin:2px 0 0 0;
+    font-size: 12px;
+    
+}
+.background-cad2{
+display: flex;
+    align-items: center; 
+    background-color: #b8c1cc;
+    justify-content: space-between; 
+    padding: 20px 32px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: #3b82f6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 16px;
+    margin: 0 0 16px 0;
+
+
+
+}
+.icon-circle1-2 {
+width: 35px;
+height: 35px;
+background-color: blue;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 26px;
+color: #2563eb;
+flex-shrink: 0;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.Debite-card2{
+    width: 20px;
+height: 20px;
+}
+.background-cad2:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.background-cad2.active-card {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+    border: 2px solid #2563eb;
+}
+.font4-2{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.font4-2 h4 {
+    margin: 0;
+    font-weight: 600;
+}
+.font4-2 a {
+    margin:2px 0 0 0;
+    font-size: 12px;
+    
+}
+.background-cad3{
+display: flex;
+    align-items: center; 
+    background-color: #b8c1cc;
+    justify-content: space-between; 
+    padding: 20px 32px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: #3b82f6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 16px;
+    margin: 0 0 16px 0;
+
+}
+.icon-circle1-3 {
+width: 35px;
+height: 35px;
+background-color: blue;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 26px;
+color: #2563eb;
+flex-shrink: 0;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.Debite-card3{
+    width: 20px;
+height: 20px;
+}
+.background-cad3:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.background-cad3.active-card {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+    border: 2px solid #2563eb;
+}
+.font4-3{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.font4-3 h4 {
+    margin: 0;
+    font-weight: 600;
+}
+.font4-3 a {
+    margin:2px 0 0 0;
+    font-size: 12px;
+    text-decoration: none;
+    
+}

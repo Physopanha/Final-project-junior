@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f8fc;
+    color: #12335f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.header {
+
+    width: 100%;
+    max-width:900px;
+    min-height: 250px;
+    justify-content: flex-start;
+    background: #4677c6;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(124, 57, 57);
+    padding: 30px 20px;
+    display: flex;
+    min-height: 100vh;
+}
+
+.bank-icon {
+    width: 76px;
+    height: 76px;
+    background: white;
+    color: #17448a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    margin-bottom: 18px;
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.12);
+}
+.header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.header p {
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+.container {
+    width: 95%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 28px;
+    border-radius: 28px;
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.10);
+}
+.bank-card {
+    border: 1px solid #d7e9ff;
+    border-radius: 22px;
+    overflow: hidden;
+    background: white;
+}
+
+.bank-header {
+    background: #edf7ff;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #d9eaff;
+}
+
+.bank-logo {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    background: #20b85a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.bank-header h2 {
+    font-size: 27px;
+    color: #123d82;
+    margin-bottom: 6px;
+}
+.bank-header p {
+    font-size: 17px;
+    color: #527bad;
+}
+
+.details {
+    padding: 18px;
+}
+.detail-row {
+    min-height: 72px;
+    border: 1px solid #d7e8ff;
+    border-radius: 17px;
+    background: #fbfdff;
+    margin-bottom: 12px;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: 0.2s;
+}
+.detail-row:hover {
+    background: #f4f9ff;
+    border-color: #a8ceff;
+}
+.detail-icon {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    border-radius: 50%;
+    background: #e3f0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+.detail-label {
+    width: 170px;
+    color: #5879a4;
+    font-size: 16px;
+}
+.detail-value {
+    flex: 1;
+    color: #123d82;
+    font-size: 17px;
+    font-weight: 700;
+}
+.info-box {
+    margin-top: 25px;
+    padding: 23px;
+    border-radius: 22px;
+    background: #edf7ff;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.info-icon {
+    width: 62px;
+    height: 62px;
+    min-width: 62px;
+    border-radius: 50%;
+    background: #d9ebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+.info-text h3 {
+    color: #123d82;
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+.info-text p {
+    color: #6384ad;
+    font-size: 15px;
+    line-height: 1.5;
+}
+    .header {
+        min-height: 220px;
+        padding: 25px 15px;
+    }
+    .header h1 {
+        font-size: 28px;
+    }
+    .header p {
+        font-size: 15px;
+    }
+    .container {
+        width: 94%;
+        margin-top: 25px;
+        padding: 15px;
+    }
+
+
+    .bank-header {
+        padding: 20px;
+    }
+    .bank-logo {
+        width: 58px;
+        height: 58px;
+        min-width: 58px;
+        font-size: 28px;
+    }
+    .bank-header h2 {
+        font-size: 20px;
+    }
+    .bank-header p {
+        font-size: 14px;
+    }
+    .detail-row {
+        flex-wrap: wrap;
+
+        padding: 12px;
+    }
+    .detail-label {
+        width: calc(100% - 65px);
+    }
+    .detail-value {
+        width: 100%;
+        flex: none;
+        padding-left: 63px;
+        font-size: 16px;
+    }
+    .info-box {
+        align-items: flex-start;
+        padding: 18px;
+    }
+    .info-icon {
+        width: 55px;
+        height: 55px;
+        min-width: 55px;
+        font-size: 24px;
+    }
+
+
+    .info-text h3 {
+        font-size: 17px;
+    }
+
+
+    .info-text p {
+        font-size: 14px;
+    }

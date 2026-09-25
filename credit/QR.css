@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+body {
+    font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f8fafc;
+    padding: 20px;
+}
+.payment-banner {
+    background: linear-gradient(
+        110deg,
+        #2563eb 0%,
+        #3b82f6 45%,
+        #60a5fa 100%
+    );
+    border-radius: 20px;
+    max-width: 6opx;
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow:
+        0 10px 20px
+        rgba(37, 99, 235, 0.15);
+    max-width: 700px;
+    margin: 0 auto;
+}
+.payment-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: #2563eb;
+    flex-shrink: 0;
+    box-shadow:
+        0 4px 10px
+        rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+.text-content {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.95;
+    max-width: 420px;
+    line-height: 1.4;
+    color: #eff6ff;
+}
+.text-content h2 {
+    margin: 0 0 6px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.text-content p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #eff6ff;
+}
+.payment-graphics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.card-img {
+    width: 140px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.qr-card {
+    width: 700px;
+    max-width: 100%;
+    margin: 45px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:
+        0 8px 30px
+        rgba(0, 0, 0, 0.08);
+}
+.qr-card h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #102a54;
+}
+.qr-box {
+    width: 310px;
+    height: 310px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #dcecff;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.instruction {
+    margin-top: 35px;
+    padding: 22px;
+    background: #eef6ff;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    text-align: left;}
+.phone-icon {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    background: #d9ebff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+}
+.instruction-text h3 {
+    color: #18345e;
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+.instruction-text p {
+    color: #7184a0;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.qr-card {
+    transition: 0.3s ease;
+}
+.qr-card:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 12px 35px
+        rgba(0, 0, 0, 0.10);
+}
+    body {
+        padding: 15px;
+    }
+    .payment-banner {
+        padding: 25px 20px;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+    .payment-info {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .text-content h2 {
+        font-size: 26px;
+    }
+    .text-content p {
+        font-size: 14px;
+    }
+    .payment-graphics {
+        display: none;
+    }
+    .qr-card {
+        margin-top: 30px;
+        padding: 25px 15px;
+    }
+    .qr-card h1 {
+        font-size: 25px;
+    }
+    .qr-box {
+        width: 260px;
+        height: 260px;
+    }
+    .instruction {
+        padding: 18px;
+        gap: 12px;
+    }
+    .instruction-text h3 {
+        font-size: 15px;
+    }
+    .instruction-text p {
+        font-size: 13px;
+    }
+}

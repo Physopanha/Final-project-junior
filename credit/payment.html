@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Form</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="payment.css">
+</head>
+<body>
+
+<div class="payment-container">
+    
+    <div class="background-credit">
+    <div class="icon-circle3">
+        <i class="fa-solid fa-credit-card"></i>
+    </div>
+    <div class="Font5">
+        <h2>Credit / Debit Card</h2>
+        <p>pay securely with your credit or debit card.</p>
+        <p>We accept Visa, Mastercard, JCB, American Express.</p>
+    </div>
+    <img src="card-visa-credit.jpg" alt="Payment Logos" class="Visa">
+    </div>
+
+    <form class="payment-form">
+    
+    <div class="section-title">Card Information</div>
+
+    <div class="form-group">
+        <label>Card Number</label>
+        <input type="text" placeholder="1234 5678 9012 3456" required>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+        <label>Expiry Date</label>
+        <div class="input-icon-wrapper">
+            <input type="text" placeholder="MM / YY" required>
+            <i class="fa-regular fa-calendar icon"></i>
+        </div>
+        </div>
+        <div class="form-group">
+        <label>CVV</label>
+        <input type="text" placeholder="123" maxlength="4" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Cardholder Name</label>
+        <input type="text" placeholder="Your name as on card" required>
+    </div>
+
+    <div class="section-title">Billing Information</div>
+
+    <div class="form-group">
+        <label>Email Address</label>
+        <div class="input-icon-wrapper">
+        <i class="fa-regular fa-envelope icon"></i>
+        <input type="email" placeholder="you@example.com" class="has-left-icon" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Phone Number (Optional)</label>
+        <div class="input-icon-wrapper">
+        <i class="fa-solid fa-phone icon"></i>
+        <input type="tel" placeholder="+855 12 345 678" class="has-left-icon">
+        </div>
+    </div>
+
+    <button type="submit" class="btn-pay">
+        <i class="fa-solid fa-credit-card"></i> Pay Now
+    </button>
+
+    <div class="secure-text">
+        <i class="fa-solid fa-lock"></i> Your payment information is secure and protected.
+    </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
