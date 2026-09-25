@@ -1,0 +1,172 @@
+header {
+    background: #10171c;
+    color: white;
+    top: 0;
+    z-index: 10;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo span {
+    color: #ffd21c;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+nav a {
+    font-weight: 600;
+    padding: 24px 0;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+    color: #ffd21c;
+    border-color: #ffd21c;
+}
+.menu-banner {
+    height: 180px;
+    background-image: url("kitchen-cooking-background-cherry-tomatoes-260nw-1937982910.webp");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.menu-banner h1 {
+    font-size: 40px;
+}
+
+.menu-banner h1 span {
+    color: #ffd000;
+}
+
+
+.menu {
+    padding: 30px;
+    background-color: white;
+}
+
+.menu h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.menu h1 span {
+    color: #ffd000;
+}
+
+.menu > p {
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.categories button {
+    padding: 15px 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.categories button:first-child {
+    background-color: #ffd000;
+}
+
+.menu h2 {
+    margin-top: 25px;
+    border-left: 5px solid #ffd000;
+    padding-left: 10px;
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.food {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.food img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.food h3 {
+    margin: 8px 0;
+}
+
+.food p {
+    color: #666;
+    font-size: 14px;
+}
+
+.food b {
+    display: block;
+    margin: 8px 0;
+}
+
+.cart {
+    background-color: #e52323;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: #c90000;
+}
+
+.big-footer{
+    background-color: #145436;
+    margin-top: 100px;
+    color:white;
+    padding: 20px;
+
+  }
+.blue{
+    display: flex-start;
+    gap: 40px;
+    
+}
+.pink{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
