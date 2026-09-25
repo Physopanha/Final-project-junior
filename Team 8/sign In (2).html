@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Student Portal</title>
+</head>
+<body>
+    <div class="mobile-frame">
+
+        <!-- Logo Section -->
+        <div class="signin-header">
+            <div class="app-logo">
+                <img src="Firefly_RemoveBackground.png" alt="Techpath Logo">
+            </div>
+            <h1>Welcome Back!</h1>
+            <p>Sign in to continue to Student Portal</p>
+        </div>
+
+        <!-- Sign In Form Card -->
+        <div class="signin-card">
+            <form action="#" method="POST">
+                
+                <!-- Student ID / Email -->
+                <div class="form-group">
+                    <label for="username">Student ID or Email</label>
+                    <div class="input-container">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" id="username" placeholder="Enter your ID or email" required>
+                    </div>
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="input-container">
+                        <i class="fa-regular fa-lock"></i>
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                    </div>
+                </div>
+
+                <!-- Password -->
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+
+                <!-- Sign In Button -->
+                <button type="submit" class="signin-btn">Sign In</button>
+
+            </form>
+        </div>
+
+        <!-- Help -->
+        <div class="signin-footer">
+            <p>Don't have an account? <a href="login.html">sign in</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>

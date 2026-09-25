@@ -1,0 +1,93 @@
+   p {
+        font-style: Roboto, Arial;
+    }
+
+    .main-container {
+        justify-content: center;
+        width: 500px;
+        height: 1500px;
+        background-color: white;
+        border-radius: 25px;
+    }
+
+    .current-tours-list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(49, 173, 175);
+        width: 150px;
+        height: 35px;
+        border-radius: 40px;
+        margin-left: 14px;
+    }
+
+    .cellcard-tour-div {
+        display: grid;
+        place-items: center;
+        margin-left: 14px;
+        margin-right: 14px;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px rgb(208, 215, 233);
+    }
+
+
+
+    .tour-purposes {
+        width: 450px;
+    }
+
+
+
+    .cellcard-main-office-pic {
+        width: 100%;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .tour-info {
+        height: 150px;
+        display: grid;
+        place-items: center;
+        margin-left: 14px;
+    }
+
+    .tour-info-div {
+        margin-right: 85px;
+    }
+
+
+
+    .timeline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(64, 87, 185);
+        width: 100px;
+        height: 35px;
+        border-radius: 40px;
+    
+    }
+
+    .www {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 210px;
+        height: 35px;
+        border-radius: 40px;
+         background-color: rgb(139, 89, 219);
+    }
+
+    .by-joining {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 220px;
+        height: 45px;
+        border-radius: 50px;
+        margin-left: 25px;
+        margin-top: 20px;
+
+
+    }

@@ -1,0 +1,305 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f8fc;
+    color: #12335f;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.header {
+    width: 100%;
+    width: 900px;
+    height: auto;
+    min-height: 250px;
+    background: linear-gradient(
+        135deg,
+        #2463ed,
+        #4d91f3,
+        #63a6f4
+    );
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px 20px;
+}
+.wallet-icon {
+    width: 76px;
+    height: 76px;
+    background: white;
+    color: #1766d9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    margin-bottom: 18px;
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.12);
+}
+.header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.header p {
+    font-size: 18px;
+    opacity: 0.95;
+}
+.container {
+    width: 95%;
+    max-width: 900px;
+    margin: 35px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 28px;
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.10);
+}
+.payment-title {
+    font-size: 28px;
+    color: #123d82;
+    margin-bottom: 25px;
+}
+.wallet-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.wallet-card {
+    min-height: 110px;
+    border: 1px solid #d7e8ff;
+    border-radius: 18px;
+    background: white;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.wallet-card:hover {
+    border-color: #7fb8ff;
+    background: #f8fbff;
+    transform: translateY(-2px);
+    box-shadow:
+        0 8px 20px rgba(0, 80, 180, 0.08);
+}
+.wallet-logo {
+    width: 62px;
+    height: 62px;
+    min-width: 62px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.wallet-info {
+    flex: 1;
+}
+
+
+.wallet-info h3 {
+    color: #123d82;
+
+    font-size: 19px;
+
+    margin-bottom: 7px;
+}
+
+
+.wallet-info p {
+    color: #6082ac;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+}
+
+
+/* =========================
+   ARROW
+========================= */
+
+.arrow {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    background: #e8f3ff;
+
+    color: #1474e8;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 30px;
+
+    line-height: 1;
+}
+.info-box {
+    margin-top: 25px;
+
+    padding: 22px;
+
+    border-radius: 22px;
+
+    background: #edf7ff;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+}
+
+
+.info-icon {
+    width: 62px;
+    height: 62px;
+
+    min-width: 62px;
+
+    border-radius: 50%;
+
+    background: #d9ebff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 28px;
+}
+
+
+.info-text h3 {
+    color: #123d82;
+
+    font-size: 19px;
+
+    margin-bottom: 7px;
+}
+
+
+.info-text p {
+    color: #6384ad;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+
+    .header {
+        min-height: 220px;
+
+        padding: 25px 15px;
+    }
+
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+
+    .header p {
+        font-size: 15px;
+    }
+
+
+    .container {
+        width: 94%;
+
+        margin-top: 25px;
+
+        padding: 18px;
+    }
+
+
+    .payment-title {
+        font-size: 24px;
+    }
+
+
+    .wallet-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .wallet-card {
+        min-height: 95px;
+    }
+
+
+    .wallet-logo {
+        width: 55px;
+        height: 55px;
+
+        min-width: 55px;
+    }
+
+
+    .wallet-info h3 {
+        font-size: 17px;
+    }
+
+
+    .wallet-info p {
+        font-size: 13px;
+    }
+
+
+    .info-box {
+        align-items: flex-start;
+
+        padding: 18px;
+    }
+
+
+    .info-icon {
+        width: 55px;
+        height: 55px;
+
+        min-width: 55px;
+
+        font-size: 24px;
+    }
+
+
+    .info-text h3 {
+        font-size: 17px;
+    }
+
+
+    .info-text p {
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,126 @@
+  p,
+    ul,
+    .register-button {
+        font-family: Roboto, Arial;
+    }
+
+    body {
+        display: flex;
+    }
+
+    .slogan {
+        display: flex;
+        justify-content: space-evenly;
+        height: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 60px;
+        border-radius: 25px;
+        background-color: rgb(234, 246, 248);
+    }
+
+
+
+    .main-container {
+        justify-content: center;
+        width: 500px;
+        background-color: white;
+        border-radius: 25px;
+    }
+
+    .java-logo {
+        width: 100%;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+
+    }
+
+    .java-logo {
+        margin-bottom: 25px;
+        border-radius: 25px;
+    }
+
+    .club-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgb(234, 246, 248);
+        border-radius: 25px;
+    }
+
+    .clock-emoji-div {
+        display: grid;
+        justify-content: space-evenly;
+        background-color: rgb(64, 87, 185);
+        width: 40px;
+        height: 70px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .seniors-type-div {
+        display: grid;
+        justify-content: space-evenly;
+        background-color: rgb(39, 128, 129);
+        width: 40px;
+        height: 70px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    }
+
+    .people-can-join-div {
+        display: grid;
+        justify-content: space-evenly;
+        background-color: rgb(139, 89, 219);
+        width: 40px;
+        height: 70px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    }
+
+
+    .time-period,
+    .seniors-type,
+    .people-can-join {
+        display: grid;
+        place-items: center;
+        width: 100px;
+
+    }
+
+    .by-joining {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 220px;
+        height: 45px;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-top: 60px;
+
+
+    }
+
+    .register-div {
+        display: grid;
+        place-items: center;
+        margin-top: 60px;
+    }
+
+    .register-button {
+        border-style: none;
+        width: 145px;
+        height: 50px;
+        border-radius: 16px;
+        background-color: rgb(40, 80, 200);
+        margin-bottom: 30px;
+        cursor: pointer;
+
+
+    }
